@@ -1,0 +1,361 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+html{
+    overflow-x: hidden;
+}
+body{
+    margin:0px;
+    padding: 0px;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(https://t3.ftcdn.net/jpg/05/10/47/40/360_F_510474034_3JSCeIhkvBKQVLwT39Prq8KbPGFKnn4f.jpg);
+    font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.starnav li{
+    list-style-type: none;
+    color:white;
+}
+.midnav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.midnav li{
+    list-style-type: none;
+}
+.midnav li a{
+    text-decoration: none;
+    padding: 50px;
+    color: white;
+}
+.midnav .innernav a{
+    color:black;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 15px black;
+}
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    background-image:url(https://t3.ftcdn.net/jpg/05/10/47/40/360_F_510474034_3JSCeIhkvBKQVLwT39Prq8KbPGFKnn4f.jpg) ;
+}
+.hero .hero2{
+    padding-top:100px;
+    font-family: "Londrina Outline", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  color: white;
+  font-size: 100px;
+}
+.intro{
+    position: absolute;
+    top:600px;
+    left:100px;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    font-size:18px;
+}
+.contact{
+    position:absolute;
+    top:400px;
+    left:1100px;
+    background-color:orange ;
+    border-radius: 20px;
+    padding:20px 40px 20px 40px;
+    font-size:20px;
+    box-shadow: 10px 10px 20px black;
+
+}
+.contact .contact1 a{
+    text-decoration: none;
+    color:black;
+}
+.contact .contact2 a{
+    text-decoration: none;
+    color:black;
+}
+.scroll{
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    top:710px;
+    left:700px;
+    padding:40px;
+    font-size: 24px;
+    font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  box-shadow: 10px 10px 30px black;
+}
+#clip{
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    height:30px;
+    width:30px;
+    background-color: orange;
+    position: absolute;
+    left:250px;
+    top:10px;
+}
+#clip2{
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    height:30px;
+    width:30px;
+    background-color: orange;
+    position: absolute;
+    left:300px;
+    top:200px;
+}
+#clip3{
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    height:50px;
+    width:50px;
+    background-color: orange;
+    position: absolute;
+    left:320px;
+    top:160px;
+}
+#clip4{
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    height:60px;
+    width:60px;
+    background-color: orange;
+    position: absolute;
+    left:600px;
+    top:600px;
+}
+.nav2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:antiquewhite;
+    font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.starnav2 li{
+    list-style-type: none;
+    color:black;
+}
+.midnav2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 500px;
+}
+.midnav2 li{
+    list-style-type: none;
+}
+.midnav2 li a{
+    text-decoration: none;
+    padding: 50px;
+    color: black;
+}
+.midnav2 .innernav2 a{
+    color:black;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 30px black;
+}
+.hiro2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+}
+.hiro2 .hiro21 .hiro211{
+    font-size:100px;
+    font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 200px;
+}
+.hiro2 .hiro21 .hiro212{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#clip1{
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    height:30px;
+    width:30px;
+    background-color: orange;
+    position: absolute;
+    left:150px;
+    top:780px;
+}
+.dob{
+    background-color: orange;
+    border-radius: 20px;
+    position: absolute;
+    top:1000px;
+    left:800px;
+    padding:10px 20px 10px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 10px 10px 30px black;
+}
+.place{
+    background-color: orange;
+    border-radius: 20px;
+    position: absolute;
+    top:1200px;
+    left:1250px;
+    padding:10px 20px 10px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 10px 10px 30px black;
+}
+.hiiro .hiiro1 .hiiro12{
+    display: flex;
+    justify-content: space-evenly;
+}
+.hiiro .hiiro1 .hiiro13{
+    display: flex;
+    justify-content: space-evenly;
+}
+.hiiro .hiiro2 .hiiro22{
+    display:grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+}
+.hiiro .hiiro2 .hiiro22 div{
+    padding: 30px;
+    font-size: larger;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hiiro{
+    display:flex;
+    justify-content: space-evenly;
+    background-image: url(https://t3.ftcdn.net/jpg/05/10/47/40/360_F_510474034_3JSCeIhkvBKQVLwT39Prq8KbPGFKnn4f.jpg);
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.hiiro2{
+    padding-top:400px;
+    padding-bottom: 100px;
+}
+.hiiro .hiiro1 .hiiro13 div{
+    padding:50px;
+    font-size: larger;
+    color:white;
+}
+.hiiro .hiiro1 .hiiro12 div{
+    padding:50px;
+    font-size: larger;
+    color:white;
+}
+.hiiro .hiiro1 .hiiro11{
+    padding-top: 50px;
+    color:orange;
+    font-size: 56px;
+}
+.hiiro .hiiro2 .hiiro21{
+    color:orange;
+    font-size: 56px;
+}
+.resume{
+    font-family: "Londrina Outline", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 100px; 
+    position: absolute;
+    top:1350px;
+    left:950px;
+    color:orange;
+}
+.exp{
+    position: absolute;
+    top:2050px;
+    left:100px;
+    padding:20px 40px 20px 40px;
+    background-color: orange;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: 20px 20px 30px black;
+}
+.hobbies .hobbies4{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.hobbies .hobbies2{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.hobbies{
+    padding-top: 100px;
+    padding-left:400px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: antiquewhite;
+}
+.hobbies .hobbies1{
+    font-size: 56px;
+}
+.hobbies .hobbies2 div{
+    padding:10px;
+    font-size: 20px;
+    margin:10px;
+
+}
+.hobbies .hobbies4 {
+padding-top: 50px;
+font-size:20px;
+padding-bottom: 100px;
+}
+.hobbies .hobbies3{
+    font-size: 56px;
+}
+.resume:hover{
+    scale:0.5;
+    transition: scale 2s;
+}
+.place:hover{
+    background-color: black;
+    color:antiquewhite;
+    transition: all 1s;
+}
+.dob:hover{
+    background-color: black;
+    color:antiquewhite;
+    transition: all 1s;
+}
+.scroll:hover{
+    background-color: black;
+    color:antiquewhite;
+    transition: all 1s;
+}
+.hero .hero2:hover{
+    scale:0.5;
+    transition:scale 2s;
+}
+#clip2:hover{
+    background-color: black;
+}
+#clip3:hover{
+    background-color:black;
+}
+#clip4:hover{
+    background-color: black;
+}
+.hobbies .hobbies4 .hobbies41 i:hover{
+scale: 2;
+transition: scale 1s;
+}
+.hobbies .hobbies4 .hobbies42 i:hover{
+    scale: 2;
+    transition: scale 1s;
+    }
+.hobbies .hobbies4 .hobbies43 i:hover{
+        scale: 2;
+        transition: scale 1s;
+        }
+.exp:hover{
+    background-color: black;
+    color:white;
+    transition:all 2s;
+}
